@@ -10,7 +10,7 @@ class News_model extends CI_Model {
 	{
 	  if ($slug === FALSE)
 	  {
-		$query = $this->db->get('news');
+		$query = $this->db->get('NEWS');
 		return $query->result_array();
 	  }
 	  
