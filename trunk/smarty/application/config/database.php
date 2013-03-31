@@ -53,7 +53,7 @@ $active_record = TRUE;
 $db['default']['hostname'] = '(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521))(CONNECT_DATA=(SID=orcl)))';	
 
 $db['default']['username'] = 'mobile';
-$db['default']['password'] = 'bonc';
+$db['default']['password'] = 'mobile';
 $db['default']['database'] = '';
 $db['default']['dbdriver'] = 'oci8';
 $db['default']['dbprefix'] = '';
@@ -69,7 +69,7 @@ $db['default']['stricton'] = FALSE;
 
 $db['oci8']['hostname'] = '(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521))(CONNECT_DATA=(SID=orcl)))';	
 $db['oci8']['username'] = 'mobile';
-$db['oci8']['password'] = 'bonc';
+$db['oci8']['password'] = 'mobile';
 $db['oci8']['database'] = '';
 $db['oci8']['dbdriver'] = 'oci8';
 $db['oci8']['dbprefix'] = '';
