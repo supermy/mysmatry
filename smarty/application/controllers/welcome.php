@@ -19,6 +19,20 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
+
+		
+		// Load MongoDB library
+		$this->load->library('mongo_db');
+		
+		//$this->mongo_db->where_gte(¡®age¡¯, 18)->where(array(¡®country¡¯ => ¡®UK¡¯, ¡®can_drink¡¯ => TRUE))->get(¡®people¡¯);
+		//»òÕß£º
+		//$this->mongo_db->get_where(¡®posts¡¯, array(¡®title¡¯ => ¡®Hello, World!¡¯);
+		//»ò£º
+		//$this->mongo_db->get(¡®sales¡¯);
+		
+		$docs = $this->mongo_db->where('age', '33')->get('collection_name_here'); 
+		//$results = $this->mongo_db->where_gte(¡®age¡¯, 18)->where(array(¡®country¡¯ => ¡®UK¡¯, ¡®sex¡¯ => ¡®male¡¯))->get(¡®users¡¯);
+	
 		$this->load->view('welcome_message');
 	}
 }

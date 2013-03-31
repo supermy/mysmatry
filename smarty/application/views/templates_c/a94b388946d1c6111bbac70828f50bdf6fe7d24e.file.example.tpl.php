@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2012-11-12 04:32:46
+<?php /* Smarty version Smarty-3.1.12, created on 2013-03-31 13:14:59
          compiled from "application\views\templates\example.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:674350a05ca98e4062-33621755%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:9589515836d35a8625-52636978%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,12 +11,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '674350a05ca98e4062-33621755',
+  'nocache_hash' => '9589515836d35a8625-52636978',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_50a05ca9b87840_40049089',
   'variables' => 
   array (
     'bold' => 0,
@@ -32,15 +30,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'contacts' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.12',
+  'unifunc' => 'content_515836d3877ba2_83221536',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_50a05ca9b87840_40049089')) {function content_50a05ca9b87840_40049089($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_capitalize')) include 'I:\\env_php\\xampp\\htdocs\\system\\libs\\smarty\\libs\\plugins\\modifier.capitalize.php';
-if (!is_callable('smarty_function_ci_config')) include 'I:\\env_php\\xampp\\htdocs\\system\\libs\\smarty\\libs\\plugins\\function.ci_config.php';
-if (!is_callable('smarty_modifier_date_format')) include 'I:\\env_php\\xampp\\htdocs\\system\\libs\\smarty\\libs\\plugins\\modifier.date_format.php';
-if (!is_callable('smarty_function_html_select_date')) include 'I:\\env_php\\xampp\\htdocs\\system\\libs\\smarty\\libs\\plugins\\function.html_select_date.php';
-if (!is_callable('smarty_function_html_select_time')) include 'I:\\env_php\\xampp\\htdocs\\system\\libs\\smarty\\libs\\plugins\\function.html_select_time.php';
-if (!is_callable('smarty_function_ci_language')) include 'I:\\env_php\\xampp\\htdocs\\system\\libs\\smarty\\libs\\plugins\\function.ci_language.php';
-if (!is_callable('smarty_function_ci_form_validation')) include 'I:\\env_php\\xampp\\htdocs\\system\\libs\\smarty\\libs\\plugins\\function.ci_form_validation.php';
-if (!is_callable('smarty_function_html_options')) include 'I:\\env_php\\xampp\\htdocs\\system\\libs\\smarty\\libs\\plugins\\function.html_options.php';
+<?php if ($_valid && !is_callable('content_515836d3877ba2_83221536')) {function content_515836d3877ba2_83221536($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_capitalize')) include 'I:\\env-php\\mysmatry\\smarty\\system\\libs\\smarty\\libs\\plugins\\modifier.capitalize.php';
+if (!is_callable('smarty_function_ci_config')) include 'I:\\env-php\\mysmatry\\smarty\\system\\libs\\smarty\\libs\\plugins\\function.ci_config.php';
+if (!is_callable('smarty_modifier_date_format')) include 'I:\\env-php\\mysmatry\\smarty\\system\\libs\\smarty\\libs\\plugins\\modifier.date_format.php';
+if (!is_callable('smarty_function_html_select_date')) include 'I:\\env-php\\mysmatry\\smarty\\system\\libs\\smarty\\libs\\plugins\\function.html_select_date.php';
+if (!is_callable('smarty_function_html_select_time')) include 'I:\\env-php\\mysmatry\\smarty\\system\\libs\\smarty\\libs\\plugins\\function.html_select_time.php';
+if (!is_callable('smarty_function_ci_language')) include 'I:\\env-php\\mysmatry\\smarty\\system\\libs\\smarty\\libs\\plugins\\function.ci_language.php';
+if (!is_callable('smarty_function_ci_form_validation')) include 'I:\\env-php\\mysmatry\\smarty\\system\\libs\\smarty\\libs\\plugins\\function.ci_form_validation.php';
+if (!is_callable('smarty_function_html_options')) include 'I:\\env-php\\mysmatry\\smarty\\system\\libs\\smarty\\libs\\plugins\\function.html_options.php';
 ?><?php echo $_smarty_tpl->getSubTemplate ("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array('title'=>"Example Smarty Page",'name'=>((string)$_smarty_tpl->tpl_vars['Name']->value)), 0);?>
 
 
@@ -77,7 +77,7 @@ Title: <?php echo smarty_modifier_capitalize($_smarty_tpl->tpl_vars['title']->va
 <p>The value of {$Name} is <em><?php echo $_smarty_tpl->tpl_vars['Name']->value;?>
 </em></p>
 
-<p>The value of {$Name|upper} is <em><?php echo mb_strtoupper($_smarty_tpl->tpl_vars['Name']->value, 'UTF-8');?>
+<p>The value of {$Name|upper} is <em><?php echo strtoupper($_smarty_tpl->tpl_vars['Name']->value);?>
 </em></p>
 
 <h2>An example of a section loop:</h2>
