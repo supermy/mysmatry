@@ -30,7 +30,7 @@ class Example extends CI_Controller {
 
 		// english is the default if you don't set lang
 		$this->smarty->assign("lang", "english");
-
+ 
 		// Set the validation rules if this is a submit
 		if ( $this->input->post('action') == 'submit' )
 		{

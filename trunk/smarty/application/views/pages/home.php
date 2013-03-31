@@ -1,3 +1,2 @@
-ÄÚÈÝ
-<?php echo $title ?>
-ÄÚÈÝ
+ï»¿
+<h1><?php echo $title ?></h1>
