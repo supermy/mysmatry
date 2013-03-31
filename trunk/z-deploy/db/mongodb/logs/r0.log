@@ -1,0 +1,269 @@
+Sun Mar 31 00:37:47 [initandlisten] MongoDB starting : pid=6232 port=27017 dbpath=db 64-bit host=jamesmo-PC
+Sun Mar 31 00:37:47 [initandlisten] db version v2.2.0, pdfile version 4.5
+Sun Mar 31 00:37:47 [initandlisten] git version: f5e83eae9cfbec7fb7a071321928f00d1b0c5207
+Sun Mar 31 00:37:47 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+Sun Mar 31 00:37:47 [initandlisten] options: { dbpath: "db", logappend: true, logpath: "logs/r0.log", oplogSize: 32, rest: true }
+Sun Mar 31 00:37:47 [initandlisten] journal dir=db/journal
+Sun Mar 31 00:37:47 [initandlisten] recover : no journal files present, no recovery needed
+Sun Mar 31 00:37:47 [initandlisten] waiting for connections on port 27017
+Sun Mar 31 00:37:47 [websvr] admin web console waiting for connections on port 28017
+Sun Mar 31 00:37:51 [initandlisten] connection accepted from 127.0.0.1:51667 #1 (1 connection now open)
+Sun Mar 31 00:38:07 [conn1] end connection 127.0.0.1:51667 (0 connections now open)
+Sun Mar 31 00:38:08 CTRL_CLOSE_EVENT signal
+Sun Mar 31 00:38:08 [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+Sun Mar 31 00:38:08 [consoleTerminate] now exiting
+Sun Mar 31 00:38:08 dbexit: 
+Sun Mar 31 00:38:08 [consoleTerminate] shutdown: going to close listening sockets...
+Sun Mar 31 00:38:08 [consoleTerminate] closing listening socket: 512
+Sun Mar 31 00:38:08 [consoleTerminate] closing listening socket: 520
+Sun Mar 31 00:38:08 [consoleTerminate] shutdown: going to flush diaglog...
+Sun Mar 31 00:38:08 [consoleTerminate] shutdown: going to close sockets...
+Sun Mar 31 00:38:08 [consoleTerminate] shutdown: waiting for fs preallocator...
+Sun Mar 31 00:38:08 [consoleTerminate] shutdown: lock for final commit...
+Sun Mar 31 00:38:08 [consoleTerminate] shutdown: final commit...
+Sun Mar 31 00:38:08 [consoleTerminate] shutdown: closing all files...
+Sun Mar 31 00:38:08 [consoleTerminate] closeAllFiles() finished
+Sun Mar 31 00:38:08 [consoleTerminate] journalCleanup...
+Sun Mar 31 00:38:08 [consoleTerminate] removeJournalFiles
+Sun Mar 31 00:38:08 [consoleTerminate] shutdown: removing fs lock...
+Sun Mar 31 00:38:08 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Sun Mar 31 00:45:57 [initandlisten] MongoDB starting : pid=5804 port=27017 dbpath=db 64-bit host=jamesmo-PC
+Sun Mar 31 00:45:57 [initandlisten] db version v2.2.0, pdfile version 4.5
+Sun Mar 31 00:45:57 [initandlisten] git version: f5e83eae9cfbec7fb7a071321928f00d1b0c5207
+Sun Mar 31 00:45:57 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+Sun Mar 31 00:45:57 [initandlisten] options: { dbpath: "db", logappend: true, logpath: "logs/r0.log", oplogSize: 32, rest: true }
+Sun Mar 31 00:45:57 [initandlisten] journal dir=db/journal
+Sun Mar 31 00:45:57 [initandlisten] recover : no journal files present, no recovery needed
+Sun Mar 31 00:45:57 [websvr] admin web console waiting for connections on port 28017
+Sun Mar 31 00:45:57 [initandlisten] waiting for connections on port 27017
+
+
+***** SERVER RESTARTED *****
+
+
+Sun Mar 31 00:54:45 [initandlisten] MongoDB starting : pid=6612 port=27017 dbpath=db 64-bit host=jamesmo-PC
+Sun Mar 31 00:54:45 [initandlisten] db version v2.2.0, pdfile version 4.5
+Sun Mar 31 00:54:45 [initandlisten] git version: f5e83eae9cfbec7fb7a071321928f00d1b0c5207
+Sun Mar 31 00:54:45 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+Sun Mar 31 00:54:45 [initandlisten] options: { dbpath: "db", logappend: true, logpath: "logs/r0.log", oplogSize: 32, rest: true }
+Sun Mar 31 00:54:45 [initandlisten] exception in initAndListen: 13627 Unable to create/open lock file: db\mongod.lock 另一个程序正在使用此文件，进程无法访问。. Is a mongod instance already running?, terminating
+Sun Mar 31 00:54:45 dbexit: 
+Sun Mar 31 00:54:45 [initandlisten] shutdown: going to close listening sockets...
+Sun Mar 31 00:54:45 [initandlisten] shutdown: going to flush diaglog...
+Sun Mar 31 00:54:45 [initandlisten] shutdown: going to close sockets...
+Sun Mar 31 00:54:45 [initandlisten] shutdown: waiting for fs preallocator...
+Sun Mar 31 00:54:45 [initandlisten] shutdown: lock for final commit...
+Sun Mar 31 00:54:45 [initandlisten] shutdown: final commit...
+Sun Mar 31 00:54:45 [initandlisten] shutdown: closing all files...
+Sun Mar 31 00:54:45 [initandlisten] closeAllFiles() finished
+Sun Mar 31 00:54:45 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Sun Mar 31 00:59:38 [initandlisten] MongoDB starting : pid=2628 port=27017 dbpath=db 64-bit host=jamesmo-PC
+Sun Mar 31 00:59:38 [initandlisten] db version v2.2.0, pdfile version 4.5
+Sun Mar 31 00:59:38 [initandlisten] git version: f5e83eae9cfbec7fb7a071321928f00d1b0c5207
+Sun Mar 31 00:59:38 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+Sun Mar 31 00:59:38 [initandlisten] options: { dbpath: "db", logappend: true, logpath: "logs/r0.log", oplogSize: 32, rest: true }
+Sun Mar 31 00:59:38 [initandlisten] exception in initAndListen: 13627 Unable to create/open lock file: db\mongod.lock 另一个程序正在使用此文件，进程无法访问。. Is a mongod instance already running?, terminating
+Sun Mar 31 00:59:38 dbexit: 
+Sun Mar 31 00:59:38 [initandlisten] shutdown: going to close listening sockets...
+Sun Mar 31 00:59:38 [initandlisten] shutdown: going to flush diaglog...
+Sun Mar 31 00:59:38 [initandlisten] shutdown: going to close sockets...
+Sun Mar 31 00:59:38 [initandlisten] shutdown: waiting for fs preallocator...
+Sun Mar 31 00:59:38 [initandlisten] shutdown: lock for final commit...
+Sun Mar 31 00:59:38 [initandlisten] shutdown: final commit...
+Sun Mar 31 00:59:38 [initandlisten] shutdown: closing all files...
+Sun Mar 31 00:59:38 [initandlisten] closeAllFiles() finished
+Sun Mar 31 00:59:38 dbexit: really exiting now
+Sun Mar 31 02:14:01 CTRL_CLOSE_EVENT signal
+Sun Mar 31 02:14:01 [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+Sun Mar 31 02:14:01 [consoleTerminate] now exiting
+Sun Mar 31 02:14:01 dbexit: 
+Sun Mar 31 02:14:01 [consoleTerminate] shutdown: going to close listening sockets...
+Sun Mar 31 02:14:01 [consoleTerminate] closing listening socket: 516
+Sun Mar 31 02:14:01 [consoleTerminate] closing listening socket: 520
+Sun Mar 31 02:14:01 [consoleTerminate] shutdown: going to flush diaglog...
+Sun Mar 31 02:14:01 [consoleTerminate] shutdown: going to close sockets...
+Sun Mar 31 02:14:01 [consoleTerminate] shutdown: waiting for fs preallocator...
+Sun Mar 31 02:14:01 [consoleTerminate] shutdown: lock for final commit...
+Sun Mar 31 02:14:01 [consoleTerminate] shutdown: final commit...
+Sun Mar 31 02:14:01 [consoleTerminate] shutdown: closing all files...
+Sun Mar 31 02:14:01 [consoleTerminate] closeAllFiles() finished
+Sun Mar 31 02:14:01 [consoleTerminate] journalCleanup...
+Sun Mar 31 02:14:01 [consoleTerminate] removeJournalFiles
+Sun Mar 31 02:14:01 [consoleTerminate] shutdown: removing fs lock...
+Sun Mar 31 02:14:01 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Sun Mar 31 21:21:49 [initandlisten] MongoDB starting : pid=2128 port=27017 dbpath=db 64-bit host=jamesmo-PC
+Sun Mar 31 21:21:49 [initandlisten] db version v2.2.0, pdfile version 4.5
+Sun Mar 31 21:21:49 [initandlisten] git version: f5e83eae9cfbec7fb7a071321928f00d1b0c5207
+Sun Mar 31 21:21:49 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+Sun Mar 31 21:21:49 [initandlisten] options: { dbpath: "db", logappend: true, logpath: "logs/r0.log", oplogSize: 32, rest: true }
+Sun Mar 31 21:21:49 [initandlisten] journal dir=db/journal
+Sun Mar 31 21:21:49 [initandlisten] recover : no journal files present, no recovery needed
+Sun Mar 31 21:21:49 [initandlisten] waiting for connections on port 27017
+Sun Mar 31 21:21:49 [websvr] admin web console waiting for connections on port 28017
+Sun Mar 31 21:32:55 [initandlisten] connection accepted from 127.0.0.1:50699 #1 (1 connection now open)
+Sun Mar 31 21:46:15 [initandlisten] connection accepted from 127.0.0.1:50784 #2 (2 connections now open)
+Sun Mar 31 21:48:09 [conn1] end connection 127.0.0.1:50699 (1 connection now open)
+Sun Mar 31 21:48:12 CTRL_CLOSE_EVENT signal
+Sun Mar 31 21:48:12 [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+Sun Mar 31 21:48:12 [consoleTerminate] now exiting
+Sun Mar 31 21:48:12 dbexit: 
+Sun Mar 31 21:48:12 [consoleTerminate] shutdown: going to close listening sockets...
+Sun Mar 31 21:48:12 [consoleTerminate] closing listening socket: 512
+Sun Mar 31 21:48:12 [consoleTerminate] closing listening socket: 516
+Sun Mar 31 21:48:12 [consoleTerminate] shutdown: going to flush diaglog...
+Sun Mar 31 21:48:12 [consoleTerminate] shutdown: going to close sockets...
+Sun Mar 31 21:48:12 [consoleTerminate] shutdown: waiting for fs preallocator...
+Sun Mar 31 21:48:12 [consoleTerminate] shutdown: lock for final commit...
+Sun Mar 31 21:48:12 [consoleTerminate] shutdown: final commit...
+Sun Mar 31 21:48:12 [consoleTerminate] shutdown: closing all files...
+Sun Mar 31 21:48:12 [consoleTerminate] closeAllFiles() finished
+Sun Mar 31 21:48:12 [consoleTerminate] journalCleanup...
+Sun Mar 31 21:48:12 [consoleTerminate] removeJournalFiles
+Sun Mar 31 21:48:12 [consoleTerminate] shutdown: removing fs lock...
+Sun Mar 31 21:48:12 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Sun Mar 31 21:50:57 [initandlisten] MongoDB starting : pid=4324 port=27017 dbpath=db 64-bit host=jamesmo-PC
+Sun Mar 31 21:50:57 [initandlisten] db version v2.2.0, pdfile version 4.5
+Sun Mar 31 21:50:57 [initandlisten] git version: f5e83eae9cfbec7fb7a071321928f00d1b0c5207
+Sun Mar 31 21:50:57 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+Sun Mar 31 21:50:57 [initandlisten] options: { dbpath: "db", logappend: true, logpath: "logs/r0.log", oplogSize: 32, rest: true }
+Sun Mar 31 21:50:57 [initandlisten] journal dir=db/journal
+Sun Mar 31 21:50:57 [initandlisten] recover : no journal files present, no recovery needed
+Sun Mar 31 21:50:57 [websvr] admin web console waiting for connections on port 28017
+Sun Mar 31 21:50:57 [initandlisten] waiting for connections on port 27017
+Sun Mar 31 21:51:12 CTRL_CLOSE_EVENT signal
+Sun Mar 31 21:51:12 [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+Sun Mar 31 21:51:12 [consoleTerminate] now exiting
+Sun Mar 31 21:51:12 dbexit: 
+Sun Mar 31 21:51:12 [consoleTerminate] shutdown: going to close listening sockets...
+Sun Mar 31 21:51:12 [consoleTerminate] closing listening socket: 508
+Sun Mar 31 21:51:12 [consoleTerminate] closing listening socket: 516
+Sun Mar 31 21:51:12 [consoleTerminate] shutdown: going to flush diaglog...
+Sun Mar 31 21:51:12 [consoleTerminate] shutdown: going to close sockets...
+Sun Mar 31 21:51:12 [consoleTerminate] shutdown: waiting for fs preallocator...
+Sun Mar 31 21:51:12 [consoleTerminate] shutdown: lock for final commit...
+Sun Mar 31 21:51:12 [consoleTerminate] shutdown: final commit...
+Sun Mar 31 21:51:12 [consoleTerminate] shutdown: closing all files...
+Sun Mar 31 21:51:12 [consoleTerminate] closeAllFiles() finished
+Sun Mar 31 21:51:12 [consoleTerminate] journalCleanup...
+Sun Mar 31 21:51:12 [consoleTerminate] removeJournalFiles
+Sun Mar 31 21:51:12 [consoleTerminate] shutdown: removing fs lock...
+Sun Mar 31 21:51:12 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Sun Mar 31 21:51:43 [initandlisten] MongoDB starting : pid=5800 port=27017 dbpath=db 64-bit host=jamesmo-PC
+Sun Mar 31 21:51:43 [initandlisten] db version v2.2.0, pdfile version 4.5
+Sun Mar 31 21:51:43 [initandlisten] git version: f5e83eae9cfbec7fb7a071321928f00d1b0c5207
+Sun Mar 31 21:51:43 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+Sun Mar 31 21:51:43 [initandlisten] options: { dbpath: "db", logappend: true, logpath: "logs/r0.log", oplogSize: 32, rest: true }
+Sun Mar 31 21:51:43 [initandlisten] journal dir=db/journal
+Sun Mar 31 21:51:43 [initandlisten] recover : no journal files present, no recovery needed
+Sun Mar 31 21:51:43 [websvr] admin web console waiting for connections on port 28017
+Sun Mar 31 21:51:44 [initandlisten] waiting for connections on port 27017
+Sun Mar 31 21:51:58 CTRL_CLOSE_EVENT signal
+Sun Mar 31 21:51:58 [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+Sun Mar 31 21:51:58 [consoleTerminate] now exiting
+Sun Mar 31 21:51:58 dbexit: 
+Sun Mar 31 21:51:58 [consoleTerminate] shutdown: going to close listening sockets...
+Sun Mar 31 21:51:58 [consoleTerminate] closing listening socket: 512
+Sun Mar 31 21:51:58 [consoleTerminate] closing listening socket: 516
+Sun Mar 31 21:51:58 [consoleTerminate] shutdown: going to flush diaglog...
+Sun Mar 31 21:51:58 [consoleTerminate] shutdown: going to close sockets...
+Sun Mar 31 21:51:58 [consoleTerminate] shutdown: waiting for fs preallocator...
+Sun Mar 31 21:51:58 [consoleTerminate] shutdown: lock for final commit...
+Sun Mar 31 21:51:58 [consoleTerminate] shutdown: final commit...
+Sun Mar 31 21:51:58 [consoleTerminate] shutdown: closing all files...
+Sun Mar 31 21:51:58 [consoleTerminate] closeAllFiles() finished
+Sun Mar 31 21:51:58 [consoleTerminate] journalCleanup...
+Sun Mar 31 21:51:58 [consoleTerminate] removeJournalFiles
+Sun Mar 31 21:51:58 [consoleTerminate] shutdown: removing fs lock...
+Sun Mar 31 21:51:58 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Sun Mar 31 21:52:17 [initandlisten] MongoDB starting : pid=4780 port=27017 dbpath=db 64-bit host=jamesmo-PC
+Sun Mar 31 21:52:17 [initandlisten] db version v2.2.0, pdfile version 4.5
+Sun Mar 31 21:52:17 [initandlisten] git version: f5e83eae9cfbec7fb7a071321928f00d1b0c5207
+Sun Mar 31 21:52:17 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+Sun Mar 31 21:52:17 [initandlisten] options: { dbpath: "db", logappend: true, logpath: "logs/r0.log", oplogSize: 32, rest: true }
+Sun Mar 31 21:52:17 [initandlisten] journal dir=db/journal
+Sun Mar 31 21:52:17 [initandlisten] recover : no journal files present, no recovery needed
+Sun Mar 31 21:52:17 [initandlisten] waiting for connections on port 27017
+Sun Mar 31 21:52:17 [websvr] admin web console waiting for connections on port 28017
+
+
+***** SERVER RESTARTED *****
+
+
+Sun Mar 31 21:55:16 [initandlisten] MongoDB starting : pid=2884 port=27017 dbpath=db 64-bit host=jamesmo-PC
+Sun Mar 31 21:55:16 [initandlisten] db version v2.2.0, pdfile version 4.5
+Sun Mar 31 21:55:16 [initandlisten] git version: f5e83eae9cfbec7fb7a071321928f00d1b0c5207
+Sun Mar 31 21:55:16 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+Sun Mar 31 21:55:16 [initandlisten] options: { dbpath: "db", logappend: true, logpath: "logs/r0.log", oplogSize: 32, rest: true }
+Sun Mar 31 21:55:16 [initandlisten] journal dir=db/journal
+Sun Mar 31 21:55:16 [initandlisten] recover begin
+Sun Mar 31 21:55:16 [initandlisten] info no lsn file in journal/ directory
+Sun Mar 31 21:55:16 [initandlisten] recover lsn: 0
+Sun Mar 31 21:55:16 [initandlisten] recover db/journal/j._0
+Sun Mar 31 21:55:16 [initandlisten] recover cleaning up
+Sun Mar 31 21:55:16 [initandlisten] removeJournalFiles
+Sun Mar 31 21:55:16 [initandlisten] recover done
+Sun Mar 31 21:55:16 [initandlisten] waiting for connections on port 27017
+Sun Mar 31 21:55:16 [websvr] admin web console waiting for connections on port 28017
+Sun Mar 31 21:55:27 [initandlisten] connection accepted from 127.0.0.1:50833 #1 (1 connection now open)
+
+
+***** SERVER RESTARTED *****
+
+
+Sun Mar 31 22:07:41 [initandlisten] MongoDB starting : pid=6904 port=27017 dbpath=db 64-bit host=jamesmo-PC
+Sun Mar 31 22:07:41 [initandlisten] db version v2.2.0, pdfile version 4.5
+Sun Mar 31 22:07:41 [initandlisten] git version: f5e83eae9cfbec7fb7a071321928f00d1b0c5207
+Sun Mar 31 22:07:41 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+Sun Mar 31 22:07:41 [initandlisten] options: { dbpath: "db", logappend: true, logpath: "logs/r0.log", oplogSize: 32, rest: true }
+Sun Mar 31 22:07:41 [initandlisten] journal dir=db/journal
+Sun Mar 31 22:07:41 [initandlisten] recover begin
+Sun Mar 31 22:07:41 [initandlisten] info no lsn file in journal/ directory
+Sun Mar 31 22:07:41 [initandlisten] recover lsn: 0
+Sun Mar 31 22:07:41 [initandlisten] recover db/journal/j._0
+Sun Mar 31 22:07:41 [initandlisten] recover cleaning up
+Sun Mar 31 22:07:41 [initandlisten] removeJournalFiles
+Sun Mar 31 22:07:41 [initandlisten] recover done
+Sun Mar 31 22:07:41 [initandlisten] waiting for connections on port 27017
+Sun Mar 31 22:07:41 [websvr] admin web console waiting for connections on port 28017
+Sun Mar 31 22:07:43 [initandlisten] connection accepted from 127.0.0.1:50900 #1 (1 connection now open)
+Sun Mar 31 22:07:44 [FileAllocator] allocating new datafile db/smarty.ns, filling with zeroes...
+Sun Mar 31 22:07:44 [FileAllocator] creating directory db/_tmp
+Sun Mar 31 22:07:44 [FileAllocator] done allocating datafile db/smarty.ns, size: 16MB,  took 0.093 secs
+Sun Mar 31 22:07:44 [FileAllocator] allocating new datafile db/smarty.0, filling with zeroes...
+Sun Mar 31 22:07:45 [FileAllocator] done allocating datafile db/smarty.0, size: 64MB,  took 0.368 secs
+Sun Mar 31 22:07:45 [FileAllocator] allocating new datafile db/smarty.1, filling with zeroes...
+Sun Mar 31 22:07:45 [conn1] build index smarty.users { _id: 1 }
+Sun Mar 31 22:07:45 [conn1] build index done.  scanned 0 total records. 0.002 secs
+Sun Mar 31 22:07:45 [conn1] insert smarty.users keyUpdates:0 locks(micros) w:476205 477ms
+Sun Mar 31 22:07:46 [FileAllocator] done allocating datafile db/smarty.1, size: 128MB,  took 1.014 secs
+Sun Mar 31 22:08:33 [initandlisten] connection accepted from 127.0.0.1:50924 #2 (2 connections now open)

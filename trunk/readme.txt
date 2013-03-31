@@ -1,10 +1,6 @@
 轻快的,与rails类似的风格。
-codeIgniter集成smarty+ci手册base example
-	CodeIgniter_2.1.3
-	Smarty-3.1.12
 
-
-开发环境：nginx+php(codeigniter)+mongodb
+开发环境：nginx+php(codeigniter,smarty)+mongodb
 http://www.codeigniter.org.tw/user_guide/toc.html
 
 
@@ -51,6 +47,6 @@ php.ini:
 	
 	codeIgniter+mongodb
 	https://github.com/alexbilbie/codeigniter-mongodb-library/tree/v2/libraries
-	https://www.openshift.com/blogs/getting-started-with-php-codeigniter-mongodb-paas
+	http://127.0.0.1/index.php?/MongoTest
 	http://localhost/welcome
 	
